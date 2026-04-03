@@ -13,12 +13,6 @@ install(DIRECTORY static/
   DESTINATION share/${PROJECT_NAME}/static
 )
 
-install(FILES
-    cert.pem
-    key.pem
-    DESTINATION share/${PROJECT_NAME}
-)
-
 # Install launch files
 install(DIRECTORY launch/
   DESTINATION share/${PROJECT_NAME}/launch
